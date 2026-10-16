@@ -66,7 +66,9 @@ backend/src/main/kotlin/com/ourdays/
 ## 문서
 
 - 제품 기획서 v1.0 (2026.10.09 초안): 제품 범위와 개발 방향을 정리했습니다. 세부 정책은 아직 확정 전입니다.
+- [API 명세서](backend/docs/api/api-specification.md) (v0.1 초안)
 - [백엔드 컨벤션](backend/docs/README.md)
+- [AGENTS.md](AGENTS.md): 에이전트와 작업할 때 따르는 저장소 규칙
 
 ## 현재 상태
 
