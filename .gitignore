@@ -1,0 +1,23 @@
+# Gradle / Build
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+
+# Kotlin
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Personal convention (local only)
+backend/docs/personal_convention/
