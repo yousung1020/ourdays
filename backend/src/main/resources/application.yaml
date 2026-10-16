@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ourdays-backend
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate

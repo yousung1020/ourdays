@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: 'postgres:17'
+    environment:
+      - 'POSTGRES_DB=ourdays'
+      - 'POSTGRES_USER=ourdays'
+      - 'POSTGRES_PASSWORD=ourdays'
+    ports:
+      - '5432:5432'
+    volumes:
+      - 'postgres-data:/var/lib/postgresql/data'
+
+volumes:
+  postgres-data:
